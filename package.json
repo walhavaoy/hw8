@@ -1,6 +1,6 @@
 {
   "name": "hw8",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Minimal Hello World web application with Express and TypeScript",
   "main": "dist/index.js",
   "scripts": {

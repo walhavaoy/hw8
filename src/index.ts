@@ -4,6 +4,7 @@ import pino from 'pino';
 const logger = pino({ name: 'hw8' });
 
 const app = express();
+app.set('trust proxy', true);
 const PORT = 8080;
 
 app.get('/', (_req: Request, res: Response) => {
